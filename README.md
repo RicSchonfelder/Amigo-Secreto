@@ -112,7 +112,7 @@ cd amigo-secreto
 
 Se tiver dúvidas ou sugestões, entre em contato:
 - **Email:** ricschonfelder@gmail.com
-- **GitHub:** [seu-usuario](https://github.com/RicSchonfelder)
+- **GitHub:** [RicSchonfelder](https://github.com/RicSchonfelder)
 
 ---
 

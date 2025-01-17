@@ -4,15 +4,18 @@ let listaAmigos = document.getElementById('listaAmigos');
 let resultado = document.getElementById('resultado');
 
 
+
 function adicionarAmigo(){
-    let amigo = document.getElementById('amigo').value;
+    let amigoInput = document.getElementById('amigo'); // Referência direta ao campo de entrada
+    let amigo = amigoInput.value; // Pega o valor atual do campo
+    
     if (amigo == ''){
         alert('Digite um nome');
         return;
     }
     amigos.push(amigo);
     listaAmigos.innerHTML += `<li>${amigo}</li>`;
-    amigo.value = '';
+    amigoInput.value = '';
 }
 
 function sortearAmigo(){
